@@ -1,0 +1,70 @@
+#navbar{
+    top: 0;
+    left: 0;
+    position: fixed;
+}
+section{
+    width: 100%;
+    height: 100vh;
+}
+
+#welcome-section, #projects, #contact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+#hey{
+    font-size: 80px;
+    transition: 1s;
+}
+#urwah{
+    color: #ffc107;
+    transition: 2s; 
+}
+
+#description{
+    color: rgb(255, 0, 0);
+}
+
+.col{
+    margin: 0 10px;
+}
+.card-img-top{
+    height: 250px;
+    object-fit: cover;
+}
+
+.card:hover{
+    background-color: #ffc107;
+    transition: 500ms;
+    cursor: pointer;    
+}
+
+a{
+    display: block;
+    color:inherit;
+    text-decoration: none;
+}
+.h3{
+    font-size: 25px;
+}
+.links a:hover{
+    color: #ffc107;
+    transition: 500ms;
+}
+#contact h1{
+    color:#ffc107;
+}
+
+
+@media(max-width:768px){
+    #projects{
+        height: fit-content;
+        margin: 50px 0;
+    } 
+}
+
+
+
