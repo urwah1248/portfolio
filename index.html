@@ -1,140 +1,178 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Urwah Shahid</title>
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
 
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Urwah Shahid</title>
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
       <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
       <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
     <![endif]-->
-  </head>
-  <body class="">
-    <header id="header">
-      <nav id="navbar" class="navbar navbar-expand-sm fixed-top bg-warning">
-        <div class="container py-2">
-          <a href="index.html" class="navbar-brand">
-            <h1>Urwah Shahid</h1>
-            <p>Web Developer</p>
-          </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
-            <span class="navbar-toggler-icon"></span>
-          </button>
+</head>
 
-          <div class="collapse navbar-collapse" id="navmenu">
-            <ul class="navbar-nav ms-auto ">
-              <li class="nav-item lead">
-                <a href="#welcome-section" class="nav-link">
-                  <h3>About</h3>
-                </a>
-              </li>
-              <li class="nav-item lead">
-                <a href="#projects" class="nav-link">
-                  <h3>Projects</h3>
-                </a>
-              </li>
-              <li class="nav-item lead">
-                <a href="#contact" class="nav-link">
-                  <h3>Contact</h3>
-                </a>
-              </li>
-            </ul>
+<body class="">
+  <header id="header">
+    <nav id="navbar" class="navbar navbar-expand-sm fixed-top ">
+      <div class="container">
+        <a href="index.html" class="navbar-brand text-light">
+          <h1>urwah's'</h1>
+          <p>portfolio.</p>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navmenu">
+          <ul class="navbar-nav ms-auto ">
+            <li class="nav-item lead">
+              <a href="#welcome-section" class="nav-link">
+                <h3>About</h3>
+              </a>
+            </li>
+            <li class="nav-item lead">
+              <a href="#services" class="nav-link">
+                <h3>Services</h3>
+              </a>
+            </li>
+            <li class="nav-item lead">
+              <a href="#projects" class="nav-link">
+                <h3>Projects</h3>
+              </a>
+            </li>
+            <li class="nav-item lead">
+              <a href="#contact" class="nav-link">
+                <h3>Contact</h3>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <!--[MAIN Site]-->
+  <main>
+
+    <!-- Welcome Section -->
+    <section id="welcome-section" class="bg-dark text-light">
+      <div class="max-width" id="about">
+        <h1 id="hey">Hey! I am</h1>
+        <h1><strong id="urwah">Urwah Shahid</strong></h1>
+        <h2 id="description" class="display-6">A Web Developer</h2>
+        <br>
+      </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+      <div class="container text-center max-width">
+        <div class="row">
+          <div class="col-md">
+            <h2>Development</h2>
+            <p>High quality and Responsive Web Development</p>
+          </div>
+          <div class="col-md">
+            <h2>UI/UX</h2>
+            <p>Responsive and Accessible UI/UX</p>
+          </div>
+          <div class="col-md">
+            <h3>Design</h3>
+            <p>Beautifully Design Web Sites</p>
           </div>
         </div>
-      </nav>
-    </header>
+      </div>
+    </section>
 
-    <!--<div class="gap" style="height: 200px;"></div>-->
-    <main>
-      <!-- Welcome Section -->
-      <section id="welcome-section" class="bg-dark text-light text-center">
-        <div class="container" id="about">
-          <h1 id="hey">Hey! I am <strong id="urwah">Urwah</strong></h1>
-          <h2 id="description" class="display-6">A Web Developer</h2>
-        </div>
-      </section>
-
-      <!-- Projects Section -->
-      <section id="projects" class="">
-        <div class="container">
-          <h1 class="mb-2">Take a Look at some of my Projects</h1>
-          <div class="text-center">
-            <div class="row">
-              <div class="col-md project-tile">
-                <a href="https://urwah1248.github.io/Bootstrap-Onepage-Website/" class="card" id="st" target=”_blank”>
-                  <img src="images/ence.png" class="card-img-top" alt="Bootstrap Demo">
-                  <div class="card-body">
-                    <h4 class="card-title">Ence Esports Website</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md project-tile">
-                <a href="https://urwah1248.github.io/Tribute-Page-Project/" class="card" id="nd" target=”_blank”>
-                  <img src="images/tribute.png" class="card-img-top" alt="Bootstrap Demo">
-                  <div class="card-body">
-                    <h4 class="card-title">Tribute Page Project</h4>
-                  </div>
-                </a>
-              </div>
-              <div class="col-md project-tile">
-                <a href="https://urwah1248.github.io/Survey-Form/" class="card" id="rd" target=”_blank”>
-                  <img src="images/survey.png" class="card-img-top" alt="Bootstrap Demo">
-                  <div class="card-body">
-                    <h4 class="card-title">Survey Form</h4>
-                  </div>
-                </a>
-              </div>
+    <!-- Projects Section -->
+    <section id="projects" class="">
+      <div class="container">
+        <h1 class="mb-2">Take a Look at some of my Projects</h1>
+        <div class="text-center">
+          <div class="row">
+            <div class="col-md project-tile">
+              <a href="https://urwah1248.github.io/Bootstrap-Onepage-Website/" class="card" id="st" target=”_blank”>
+                <img src="images/ence.png" class="card-img-top" alt="Bootstrap Demo">
+                <div class="card-body">
+                  <h4 class="card-title">Ence Esports Website</h4>
+                </div>
+              </a>
+            </div>
+            <div class="col-md project-tile">
+              <a href="https://urwah1248.github.io/Tribute-Page-Project/" class="card" id="nd" target=”_blank”>
+                <img src="images/tribute.png" class="card-img-top" alt="Bootstrap Demo">
+                <div class="card-body">
+                  <h4 class="card-title">Tribute Page Project</h4>
+                </div>
+              </a>
+            </div>
+            <div class="col-md project-tile">
+              <a href="https://urwah1248.github.io/Apple-Site-Clone/" class="card" id="rd" target=”_blank”>
+                <img src="images/apple-site.png" class="card-img-top" alt="Bootstrap Demo">
+                <div class="card-body">
+                  <h4 class="card-title">Apple Website</h4>
+                </div>
+              </a>
             </div>
           </div>
-      </section>
-
-      <!-- Contact Section -->
-      <section id="contact" class="bg-dark">
-        <div class="container text-light text-center">
-          <h1>Lets have a chat and work together</h1>
-          <h3 class="display-6 h3">Reach me out anytime</h3>
-          <br>
-          <div class="links text-center">
-            <div class="row">
-              <div class="col-sm">
-                <a href="https://www.linkedin.com/in/m-urwah-shahid-053a38229/" class="h4" id="profile-link" target="_blank">LinkedIn</a>
-              </div>
-              <div class="col-sm">
-                <a href="https://github.com/urwah1248" class="h4" id="gitHub" target=”_blank”>GitHub</a>
-              </div>
-              <div class="col-sm">
-                <a href="https://twitter.com/shahid_urwah" class="h4" id="twitter" target=”_blank”>Twitter</a>
-              </div>
-              <div class="col-sm">
-                <a href="mailto:urwahpatel@gmail.com" class="h4" id="email">Email</a>
-              </div>
-              <div class="col-sm">
-                <a href="tel:+923161118288" class="h4" id="phone">Call Me</a>
-              </div>
-            </div>
         </div>
-      </section>
+    </section>
 
-    </main>
-<!-- Links
+    <!-- Contact Section -->
+    <section id="contact" class="bg-dark">
+      <div class="container text-light text-center">
+        <h1>Lets have a chat and work together</h1>
+        <h3 class="display-6 h3">Reach me out anytime</h3>
+        <br>
+        <div class="links text-center">
+          <div class="row">
+            <div class="col-sm">
+              <a href="https://www.linkedin.com/in/m-urwah-shahid-053a38229/" class="h4" id="profile-link"
+                target="_blank">LinkedIn</a>
+            </div>
+            <div class="col-sm">
+              <a href="https://github.com/urwah1248" class="h4" id="gitHub" target=”_blank”>GitHub</a>
+            </div>
+            <div class="col-sm">
+              <a href="https://twitter.com/shahid_urwah" class="h4" id="twitter" target=”_blank”>Twitter</a>
+            </div>
+            <div class="col-sm">
+              <a href="mailto:urwahpatel@gmail.com" class="h4" id="email">Email</a>
+            </div>
+            <div class="col-sm">
+              <a href="tel:+923161118288" class="h4" id="phone">Call Me</a>
+            </div>
+          </div>
+        </div>
+        <div id="footer" style="position:relative; top: 100%;">
+          <div class="hr" style="width: 100%;height:1px;background-color: white; margin-bottom: 10px;"></div>
+          <p>All Rights Reserved. Created By Urwah Shahid 2022.</p>
+        </div>
+      </div>
+    </section>
+
+    
+
+  </main>
+  <!-- Links
 https://urwah1248.github.io/Bootstrap-Onepage-Website/
 https://urwah1248.github.io/Tribute-Page-Project/
 https://urwah1248.github.io/Survey-Form/
 
 -->
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-  </body>
-</html>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+</body>
 
+</html>
