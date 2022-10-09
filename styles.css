@@ -23,6 +23,14 @@ section{
     align-items: center;
     text-align: center;
 }
+#services{
+    gap: 20px;
+}
+.service-card{
+    padding-top: 5px;
+    border: solid white 5px;
+    border-radius: 25px;
+}
 #welcome-section{
     text-align: left;
 }
